@@ -29,6 +29,6 @@ Before you begin, make sure you've met the following requirements:
 
 -Import your data from https://letterboxd.com/settings/data/
 
--Put **diretores.py** and **i.txt** in same folder as ratings.csv
+-Put **diretores.py** and **i.txt** in same folder as **ratings.csv**
 
 -Run **diretores.py**
