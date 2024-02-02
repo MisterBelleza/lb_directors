@@ -15,7 +15,7 @@
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [ ] Selenium sometimes get stuck while reading, just close chrome window and run diretores.py again, it will keep the progress and continues where it left off.
-- [ ] Selenium handshake failed will keep showing but don't afect the process.
+- [ ] Selenium handshake failed notification will keep showing but don't afect the process.
 
 ## 💻 Prerequisites
 
