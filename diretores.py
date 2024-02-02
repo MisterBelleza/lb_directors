@@ -27,11 +27,18 @@ def pegar():
 
 def main():
     try:
-        df = pd.read_csv("ratings.csv")
+        try:
+            df = pd.read_csv("ratings.csv")
+        except:
+            df = pd.read_csv("ratings.csv", sep = ';')
+        urls = df["Letterboxd URI"]
+        titulos = df["Name"]
     except:
-        df = pd.read_csv("ratings.csv", sep = ';')
-    urls = df["Letterboxd URI"]
-    titulos = df["Name"]
+        f = open("erro.txt", "w")
+        f.write("No ratings.csv file")
+        f.close()
+        print("No ratings.csv file")
+        return
     try:
         f = open("i.txt", "r")
     except:
